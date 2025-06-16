@@ -4,7 +4,7 @@ import joblib
 import numpy as np
 
 # Load the trained model
-model = joblib.load('bank_marketing_model.pkl')
+model = joblib.load('bank2_marketing_model.pkl')
 
 # Define feature lists (same as in the notebook)
 numeric_columns = ['age', 'duration', 'campaign', 'pdays', 'previous', 
